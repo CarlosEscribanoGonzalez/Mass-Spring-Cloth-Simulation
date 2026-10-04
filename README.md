@@ -13,6 +13,10 @@ It implements several explicit and implicit integration methods on top of a comm
   * Midpoint
   * Verlet
   * Implicit Euler, solving a linear system every step with the force Jacobians
+<p align = "center">
+ <img width="300" height="300" alt="2nodes" src="https://github.com/user-attachments/assets/8139d445-1563-4f28-8486-9788dd49599f" />
+ <img width="300" height="300" alt="4nodes" src="https://github.com/user-attachments/assets/4a51d699-c0c8-4696-9334-9d6ce7dcf132" />
+</p>
 
 **Cloth simulation**
 * Mass-spring model generated automatically at startup from a triangle mesh (planes, quads...), with one node per vertex
@@ -20,6 +24,10 @@ It implements several explicit and implicit integration methods on top of a comm
 * Rayleigh damping: a mass-proportional term at the nodes and a stiffness-proportional term at the springs
 * Fixers to pin the nodes inside a region, allowing hanging and anchored cloth
 * Debug visualization of the model: nodes drawn as spheres and springs as lines, colored by type (cyan for stretch, green for bend)
+<p align = "center">
+ <img width="300" height="300" alt="cloth1" src="https://github.com/user-attachments/assets/ef5c45a5-d14d-45f5-b9d3-58ad23da1345" />
+ <img width="300" height="300" alt="cloth2" src="https://github.com/user-attachments/assets/53965d92-e3e2-4156-bc80-6c8c5eba270f" />
+</p>
 
 ## Technologies
 * Unity (Universal Render Pipeline)
